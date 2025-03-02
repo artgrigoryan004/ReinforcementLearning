@@ -2,16 +2,17 @@
 This project models the K-armed bandit problem with different action selection strategies, producing visualizations of average rewards and optimal action choices over time
 
 <h2 align="center"><strong>File Descriptions</strong></h2>
+
 1. [**bandit.py**](https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/ten-armed-testbed/src/bandit.py)  file defines the `Bandit` class, which represents a k-armed bandit problem with various action-selection strategies. It provides the foundation for implementing and experimenting with different learning algorithms, such as the epsilon-greedy algorithm, sample-average method, and gradient bandit algorithm.
 
 ### Key Methods:
-- **`initialize()`**  
+- `initialize()`
   Initializes the bandit's parameters, including the action values, estimated action values, and action selection counts.
 
-- **`act()`**  
+- `act()`
   Selects an action based on the chosen action-selection method (epsilon-greedy or greedy).
 
-- **`step(action)`**  
+- `step(action)`
   Takes an action, calculates the reward, and updates the estimated action values based on the selected method.
 
 ### Action-Selection Methods:
@@ -34,6 +35,7 @@ This project models the K-armed bandit problem with different action selection s
 
 ---
 <h2 align="center"><strong>Results</strong></h2>
+
 ![Figure 2.2](https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_2.png)
 
 
