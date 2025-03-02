@@ -38,7 +38,6 @@ This project models the K-armed bandit problem with different action selection s
 
 ![Figure 2.2](https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_2.png)
 
-
 * `ε = 0.10`: More exploration, helping find better actions early but impacting long-term results.
 * `ε = 0.01`: Better long-term performance with a good mix of exploration and exploitation.
 * `ε = 0.00`: Poor performance due to no exploration.
