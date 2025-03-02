@@ -2,7 +2,7 @@
 This project models the K-armed bandit problem with different action selection strategies, producing visualizations of average rewards and optimal action choices over time
 
 <h2 align="center"><strong>File Descriptions</strong></h2>
-1. [**bandit.py**](https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/ten-armed-testbed/src/bandit.py) file defines the `Bandit` class, which represents a k-armed bandit problem with various action-selection strategies. It provides the foundation for implementing and experimenting with different learning algorithms, such as the epsilon-greedy algorithm, sample-average method, and gradient bandit algorithm.
+1. [**bandit.py**](https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/ten-armed-testbed/src/bandit.py)  file defines the `Bandit` class, which represents a k-armed bandit problem with various action-selection strategies. It provides the foundation for implementing and experimenting with different learning algorithms, such as the epsilon-greedy algorithm, sample-average method, and gradient bandit algorithm.
 
 ### Key Methods:
 - **`initialize()`**  
@@ -22,7 +22,7 @@ This project models the K-armed bandit problem with different action selection s
 2. [**ten_armed_testbed.ipynb**](https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/ten-armed-testbed/notebooks/ten_armed_testbed.ipynb) Jupyter notebook simulates the behavior of different bandit algorithms applied to a 10-armed bandit problem. It runs multiple experiments to measure the performance of a bandit algorithm over time. The notebook allows for the evaluation of the optimal action selection strategy and the rewards achieved by an agent during exploration and exploitation.
 
 ### Key Functions:
-- **`simulate(runs, times, bandits)`**  
+- `simulate(runs, times, bandits)`
   Runs multiple simulations for different bandit problems, calculating the optimal action count and average reward over time.
 
 - The notebook plots and saves the reward distribution and optimal action selection rate as figures to help visualize the performance of the agent.
@@ -35,6 +35,7 @@ This project models the K-armed bandit problem with different action selection s
 ---
 <h2 align="center"><strong>Results</strong></h2>
 ![Figure 2.2](https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_2.png)
+
 
 * `ε = 0.10`: More exploration, helping find better actions early but impacting long-term results.
 * `ε = 0.01`: Better long-term performance with a good mix of exploration and exploitation.
