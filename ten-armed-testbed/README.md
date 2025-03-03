@@ -40,7 +40,7 @@ This project models the K-armed bandit problem with different action selection s
 
 * `ε = 0.10`: More exploration, helping find better actions early but impacting long-term results.
 * `ε = 0.01`: Better long-term performance with a good mix of exploration and exploitation.
-* `ε = 0.00`: Poor performance due to no exploration.
+* `ε = 0.00`: Poor performance due to no exploration
 
 ### Best Strategy:
 
