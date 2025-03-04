@@ -47,3 +47,6 @@ This project models the K-armed bandit problem with different action selection s
 * `ε = 0.01` gives the best results in this case, balancing exploration and exploitation for higher rewards over time.  
 However, this doesn't mean that the lower `ε` always leads to better results. The optimal value of `ε` depends on the problem and environment, and other settings may lead to different outcomes.
 
+
+
+.
