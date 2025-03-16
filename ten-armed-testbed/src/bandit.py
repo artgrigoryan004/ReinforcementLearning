@@ -142,6 +142,27 @@ class Bandit:
 
         # endregion ε-greedy
 
+        # region UCB
+
+        # Upper-Confidence-Bound (UCB) action selection: When a confidence level is provided, the UCB estimation is computed by incorporating a term that reflects the uncertainty in the action-value estimates.
+        if self.confidence_level is not None:
+            UCB_estimation = (self.estimated_action_values +
+                              self.confidence_level * np.sqrt(np.log(self.time + 1) / (self.action_selection_count + 1e-5)))
+            action = np.random.choice(np.where(UCB_estimation==np.max(UCB_estimation))[0])
+            return action
+
+        # endregion UCB
+
+        # region GBA
+
+        # Gradient Bandit Algorithm (GBA) action selection: The action is chosen probabilistically according to these updated probabilities, enabling the model to dynamically respond to changing reward patterns.
+        if self.use_gradient:
+            exponential_estimations = np.exp(self.estimated_action_values)
+            self.action_probability = exponential_estimations / np.sum(exponential_estimations)
+            return np.random.choice(self.actions, p=self.action_probability)
+
+        # endregion GBA
+
         # region Greedy
 
         # Greedy action selection: select one of the actions with the highest estimated value, that is, one of the greedy actions.
