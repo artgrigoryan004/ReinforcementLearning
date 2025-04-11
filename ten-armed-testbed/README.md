@@ -53,7 +53,7 @@ However, this doesn't mean that the lower `ε` always leads to better results. T
 This approach influences the exploration strategy by initializing action-value estimates optimistically, rather than starting with realistic estimates. By setting action values higher than expected, the agent is encouraged to explore more, as all actions appear initially promising.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_3.png" width="300">
+  <img src="https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_3.png" width="500">
 </p>
 
 This simulation compares two strategies to evaluate how often the agent selects the optimal action:
@@ -73,7 +73,7 @@ In this case, optimistic initialization worked better because the environment is
 **UCB** improves exploration-exploitation balance by selecting actions with the highest potential return while considering uncertainty in estimates.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_4.png" width="300">
+  <img src="https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_4.png" width="500">
 </p>
 
 
@@ -90,7 +90,7 @@ The UCB strategy outperforms epsilon-greedy by directing exploration towards act
 GBA uses **preference-based action selection**, updating preferences based on rewards received.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_5.png" width="300">
+  <img src="https://raw.githubusercontent.com/MariHovhannisyan/ReinforcementLearning/master/ten-armed-testbed/generated_images/figure_2_5.png" width="500">
 </p>
 
   - **Bandit Configurations:**

@@ -8,15 +8,14 @@ This project implements a simple **Grid World** environment used for testing rei
 
 | File                 | Description |
 |----------------------|-------------|
-| [grid_world.py]()    | Contains the core implementation of the Grid World environment and reinforcement learning logic. It defines the environment, rewards, transitions, agent updates, and training mechanism. |
-| [grid_world.ipynb]() | A Jupyter notebook that provides a step-by-step walkthrough for training the agent in the Grid World environment and visualizing its behavior. Ideal for experimentation and learning. |
+| [grid_world.py](https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gridworld-dp/src/grid_world.py)    | Contains the core implementation of the Grid World environment and reinforcement learning logic. It defines the environment, rewards, transitions, agent updates, and training mechanism. |
+| [grid_world.ipynb](https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gridworld-dp/notebooks/grid_world.ipynb) | A Jupyter notebook that provides a step-by-step walkthrough for training the agent in the Grid World environment and visualizing its behavior. Ideal for experimentation and learning. |
 
 ---
 
 ## Key Classes and Methods
 
-### In `grid_world.py`
-
+ In `grid_world.py`
 #### `GridWorldEnv`
 A class representing the grid world environment.
 
@@ -34,7 +33,8 @@ A class that implements the value iteration algorithm.
 
 ---
 
-## Key Functions (in grid_world.ipynb)
+## Key Functions 
+ In `grid_world.ipynb`
 
 - **`display_values_and_policy()`**: Helper function to visualize the computed value function and policy using matplotlib and seaborn.
 - **`run_simulation()`**: Simulates an agent moving through the environment using the optimal policy.
