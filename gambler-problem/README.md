@@ -37,7 +37,7 @@ Plots the value function over multiple sweeps to show convergence.
 Plots the final learned policy (how much to bet at each state).
 
 <p align="center">
-  <img src="" width="500">
+  <img src="https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gambler-problem/generated_images/figure_4_3.png" width="500">
 </p>
 
 ### Top Plot:
@@ -51,7 +51,7 @@ Plots the final learned policy (how much to bet at each state).
 - **Points:** Show the optimal bet at each capital. A peak indicates where betting large amounts is optimal.
 
 <p align="center">
-  <img src="" width="500">
+  <img src="https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gambler-problem/book_images/Figure_4_3.PNG" width="500">
 </p>
 
 ### Reference Plot:
