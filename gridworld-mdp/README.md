@@ -39,7 +39,7 @@ This project implements key concepts from Reinforcement Learning (RL), specifica
 ---
 ## Policy Evaluation
 <p align="center">
-  <img src="https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gridworld-mdp/generated_images/figure_3_2.png" width="300">
+  <img src="https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gridworld-mdp/generated_images/figure_3_2.png" width="600">
 </p>
 
 - States along the edges tend to have **negative expected returns** due to the high likelihood of hitting grid boundaries and receiving penalties.
@@ -48,7 +48,7 @@ This project implements key concepts from Reinforcement Learning (RL), specifica
 
 ## Value Iteration
 <p align="center">
-  <img src="https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gridworld-mdp/generated_images/figure_3_5_policy.png" width="300">
+  <img src="https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gridworld-mdp/generated_images/figure_3_5_policy.png" width="600">
 </p>
 
 - Several cells contain **multiple arrows**, indicating that **multiple actions** are equally optimal from those states.
