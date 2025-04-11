@@ -7,3 +7,4 @@ This repository showcases various projects developed as part of the Reinforcemen
 
 1. [Tic-Tac-Toe](https://github.com/MariHovhannisyan/ReinforcementLearning/tree/master/Tic_tac_toe)
 2. [10-armed Testbed](https://github.com/MariHovhannisyan/ReinforcementLearning/tree/master/ten-armed-testbed)
+3. [(MDP) in Grid-World](https://github.com/MariHovhannisyan/ReinforcementLearning/tree/master/gridworld-mdp)
