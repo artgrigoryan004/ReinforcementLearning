@@ -20,7 +20,7 @@ The code simulates value iteration over multiple sweeps, visualizes the value fu
 
 ## Key Functions & Methods
 
-### `value_iteration(p_h, theta = 1e-9, max_sweep = 1000)`
+`value_iteration(p_h, theta = 1e-9, max_sweep = 1000)`
 Performs value iteration:
 - `p_h`: Probability of the coin landing heads.
 - `theta`: Convergence threshold.
@@ -30,10 +30,10 @@ Returns:
 - Value function over states.
 - Optimal policy.
 
-### `plot_value_estimates_over_sweeps(value_history)`
+`plot_value_estimates_over_sweeps(value_history)`
 Plots the value function over multiple sweeps to show convergence.
 
-### `plot_final_policy(policy)`
+`plot_final_policy(policy)`
 Plots the final learned policy (how much to bet at each state).
 
 <p align="center">
