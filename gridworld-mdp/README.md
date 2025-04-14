@@ -10,7 +10,6 @@ This project implements key concepts from Reinforcement Learning (RL), specifica
 | [grid_world.py](https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gridworld-mdp/src/grid_world.py)             | Contains constants, helper functions (`step`, `draw`) and gridworld setup including special state transitions. |
 | [grid_world.ipynb](https://github.com/MariHovhannisyan/ReinforcementLearning/blob/master/gridworld-mdp/notebooks/grid_world.ipynb) | Computes value functions and optimal policies using Bellman equations, and visualizes results. |
 
-
 ---
 
 ## Key Methods and Functions
