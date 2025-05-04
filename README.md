@@ -11,3 +11,4 @@ This repository showcases various projects developed as part of the Reinforcemen
 4. [Gridworld via Dynamic Programming](https://github.com/MariHovhannisyan/ReinforcementLearning/tree/master/gridworld-dp)
 5. [Gambler's Problem](https://github.com/MariHovhannisyan/ReinforcementLearning/tree/master/gambler-problem)
 Проект адаптирован и поддерживается Арташесом Григоряном.
+Проект скопирован и адаптирован Арташесом Григоряном
